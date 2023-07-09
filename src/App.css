@@ -1,0 +1,119 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#navbarScrollingDropdown {
+  color: white;
+}
+
+.List {
+  float: left;
+  text-align: left;
+}
+
+.heading {
+  float: left;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #006bf8;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 28px !important;
+  text-decoration: none;
+}
+
+.Nav-inner {
+  margin-top: 15px;
+}
+
+.nav-data {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.nav-search {
+  float: right; 
+}
+
+.product-Page {
+  display: flex;
+  margin: 15px;
+}
+
+.order-Button{
+  margin-top: 100px;
+}
+
+.no-Match-Page {
+  display: flex;
+  justify-content: center;
+  margin-top: 198px;
+}
+
+.no-match-image {
+    position: absolute;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .NavBar {
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    background: #006bf8;
+    color: #fff;
+    padding: 15px;
+  }
+
+  .product-Page {
+    display: flex;
+    flex-direction : column;
+  }
+
+  .order-Button{
+    margin-top: 0px;
+    align-self: center;
+  }
+}
